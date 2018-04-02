@@ -1,0 +1,25 @@
+.no-network-container{
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 90%;
+	padding: 5px 10px;
+	margin: auto;
+	margin-top: 200px;
+	font-size: 15px;
+	background-color: white;
+	border-radius: 5px;
+}
+.no-network-container span:nth-child(1),
+.no-network-container span:nth-child(2){
+	width: 100%;
+	text-align: center;
+}
+.no-network-container span:nth-child(3){
+	margin-top: 20px;
+	padding: 5px 10px;
+	background-color: red;
+	color: white;
+	border-radius: 5px;
+}
